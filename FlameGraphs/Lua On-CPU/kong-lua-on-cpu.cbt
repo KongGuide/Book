@@ -1,0 +1,17 @@
+=access_by_lua(nginx-kong.conf:183):1 6
+=access_by_lua(nginx-kong.conf:183):1;init.lua:Kong.access 2
+=access_by_lua(nginx-kong.conf:183):1;init.lua:Kong.access;=coroutine.wrap:19;=coroutine.wrap:7;C:ngx_http_lua_get_raw_phase_context 1
+=access_by_lua(nginx-kong.conf:183):1;init.lua:Kong.access;=coroutine.wrap:21;C:ngx_http_lua_coroutine_resume 1
+=body_filter_by_lua:1;init.lua:Kong.body_filter;base_plugin.lua:BasePlugin:body_filter;C:ngx_http_lua_ngx_log 1
+=header_filter_by_lua:1;init.lua:Kong.header_filter;base_plugin.lua:BasePlugin:header_filter;C:ngx_http_lua_ngx_log 1
+=log_by_lua(nginx-kong.conf:217):1;init.lua:Kong.log;base_plugin.lua:BasePlugin:log;C:ngx_http_lua_ngx_log 1
+=log_by_lua(nginx-kong.conf:217):1;init.lua:Kong.log;handler.lua:after 1
+=log_by_lua(nginx-kong.conf:217):1;init.lua:Kong.log;handler.lua:after;balancer.lua:balancer.report_http_status;healthcheck.lua:checker:report_http_status 1
+=log_by_lua(nginx-kong.conf:217):1;init.lua:Kong.log;resty.core.ctx:get_ctx_table 1
+events.lua:do_timer;C:ngx_http_lua_ngx_timer_at 1
+kong.plugins.training_rate_limiting.handler:plugin:access 1
+kong.plugins.training_rate_limiting.handler:plugin:access;cache.lua:_M:get;mlcache.lua:_M:get;mlcache.lua:get_shm_set_lru;mlcache.lua:unmarshall_from_shm;mlcache.lua:[4];C:json_protect_conversion 1
+kong.plugins.training_rate_limiting.handler:plugin:access;init.lua:increment;timestamp.lua:get_timestamps;timetable.lua:new_from_timestamp 1
+kong.plugins.training_rate_limiting.handler:plugin:access;kong.plugins.training_rate_limiting.handler:get_usage;init.lua:usage;C:lj_cf_string_format 11
+kong.plugins.training_rate_limiting.handler:plugin:access;kong.plugins.training_rate_limiting.handler:get_usage;init.lua:usage;timestamp.lua:get_timestamps;timetable.lua:timetable_methods:normalise;timetable.lua:normalise;timetable.lua:carry 1
+kong.plugins.training_rate_limiting.http_client:_M.query_from_web_try;mlcache.lua:_M:get 1

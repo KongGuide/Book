@@ -1,0 +1,7 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs/Book/v16/ipch/AutoPCH/c97423a6e8edb48d/AREA_RECTANGLE_FUNC.ipch
+/.vs/Book/v16/Browse.VC.db
+/.vs/Book/v16/Browse.VC.opendb

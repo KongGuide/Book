@@ -1,0 +1,79 @@
+C:lj_cf_string_format
+@/usr/local/share/lua/5.1/kong/plugins/rate-limiting/policies/init.lua:82
+@/usr/local/openresty/lualib/kong/plugins/training-rate-limiting/handler.lua:19
+@/usr/local/openresty/lualib/kong/plugins/training-rate-limiting/handler.lua:51
+	11
+=access_by_lua(nginx-kong.conf:183):1
+	6
+@/usr/local/share/lua/5.1/kong/init.lua:454
+=access_by_lua(nginx-kong.conf:183):1
+	2
+C:json_protect_conversion
+@/usr/local/share/lua/5.1/resty/mlcache.lua:106
+@/usr/local/share/lua/5.1/resty/mlcache.lua:421
+@/usr/local/share/lua/5.1/resty/mlcache.lua:499
+@/usr/local/share/lua/5.1/resty/mlcache.lua:648
+@/usr/local/share/lua/5.1/kong/cache.lua:119
+@/usr/local/openresty/lualib/kong/plugins/training-rate-limiting/handler.lua:51
+	1
+C:ngx_http_lua_ngx_log
+@/usr/local/share/lua/5.1/kong/plugins/base_plugin.lua:27
+@/usr/local/share/lua/5.1/kong/init.lua:488
+=header_filter_by_lua:1
+	1
+@/usr/local/share/lua/5.1/resty/mlcache.lua:648
+@/usr/local/openresty/lualib/kong/plugins/training-rate-limiting/http_client.lua:20
+	1
+C:ngx_http_lua_get_raw_phase_context
+=coroutine.wrap:7
+=coroutine.wrap:19
+@/usr/local/share/lua/5.1/kong/init.lua:454
+=access_by_lua(nginx-kong.conf:183):1
+	1
+C:ngx_http_lua_coroutine_resume
+=coroutine.wrap:21
+@/usr/local/share/lua/5.1/kong/init.lua:454
+=access_by_lua(nginx-kong.conf:183):1
+	1
+C:ngx_http_lua_ngx_timer_at
+@/usr/local/share/lua/5.1/resty/worker/events.lua:356
+	1
+@/usr/local/share/lua/5.1/resty/healthcheck.lua:589
+@/usr/local/share/lua/5.1/kong/runloop/balancer.lua:272
+@/usr/local/share/lua/5.1/kong/runloop/handler.lua:772
+@/usr/local/share/lua/5.1/kong/init.lua:522
+=log_by_lua(nginx-kong.conf:217):1
+	1
+@/usr/local/openresty/lualib/resty/core/ctx.lua:33
+@/usr/local/share/lua/5.1/kong/init.lua:522
+=log_by_lua(nginx-kong.conf:217):1
+	1
+C:ngx_http_lua_ngx_log
+@/usr/local/share/lua/5.1/kong/plugins/base_plugin.lua:35
+@/usr/local/share/lua/5.1/kong/init.lua:522
+=log_by_lua(nginx-kong.conf:217):1
+	1
+@/usr/local/openresty/lualib/kong/plugins/training-rate-limiting/handler.lua:51
+	1
+@/usr/local/share/lua/5.1/luatz/timetable.lua:74
+@/usr/local/share/lua/5.1/luatz/timetable.lua:86
+@/usr/local/share/lua/5.1/luatz/timetable.lua:163
+@/usr/local/share/lua/5.1/kong/tools/timestamp.lua:45
+@/usr/local/share/lua/5.1/kong/plugins/rate-limiting/policies/init.lua:82
+@/usr/local/openresty/lualib/kong/plugins/training-rate-limiting/handler.lua:19
+@/usr/local/openresty/lualib/kong/plugins/training-rate-limiting/handler.lua:51
+	1
+C:ngx_http_lua_ngx_log
+@/usr/local/share/lua/5.1/kong/plugins/base_plugin.lua:31
+@/usr/local/share/lua/5.1/kong/init.lua:507
+=body_filter_by_lua:1
+	1
+@/usr/local/share/lua/5.1/luatz/timetable.lua:235
+@/usr/local/share/lua/5.1/kong/tools/timestamp.lua:45
+@/usr/local/share/lua/5.1/kong/plugins/rate-limiting/policies/init.lua:66
+@/usr/local/openresty/lualib/kong/plugins/training-rate-limiting/handler.lua:51
+	1
+@/usr/local/share/lua/5.1/kong/runloop/handler.lua:772
+@/usr/local/share/lua/5.1/kong/init.lua:522
+=log_by_lua(nginx-kong.conf:217):1
+	1

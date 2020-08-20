@@ -1,0 +1,21 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: kong-training-rest
+  profiles:
+    active: dev
+  cloud:
+    consul:
+      host: 10.129.7.17
+      port: 8500
+      discovery:
+        enabled: false
+        register: false
+        deregister: false
+        tags: kong,version=1.0,author=kongGuide
+        prefer-ip-address: true
+        health-check-interval: 10s
+        health-check-critical-timeout: 30s
+        health-check-path: /health/ping
+        instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}

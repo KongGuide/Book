@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.logging.log4j.to-slf4j
+Built-By: rgoers
+Bnd-LastModified: 1565149636323
+Implementation-Vendor-Id: org.apache.logging.log4j
+Specification-Title: Apache Log4j to SLF4J Adapter
+Log4jReleaseManager: Ralph Goers
+Bundle-DocURL: https://www.apache.org/
+Import-Package: org.apache.logging.log4j;version="[2.12,3)",org.apache.l
+ ogging.log4j.message;version="[2.12,3)",org.apache.logging.log4j.spi;ve
+ rsion="[2.12,3)",org.apache.logging.log4j.status;version="[2.12,3)",org
+ .apache.logging.log4j.util;version="[2.12,3)",org.slf4j;version="[1.7,2
+ )",org.slf4j.spi;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Export-Package: org.apache.logging.slf4j;uses:="org.apache.logging.log4j
+ ,org.apache.logging.log4j.message,org.apache.logging.log4j.spi,org.apac
+ he.logging.log4j.util,org.slf4j";version="2.12.1"
+Bundle-Name: Apache Log4j to SLF4J Adapter
+Log4jReleaseVersion: 2.12.1
+Implementation-Title: Apache Log4j to SLF4J Adapter
+Bundle-Description: The Apache Log4j binding between Log4j 2 API and SLF
+ 4J.
+Automatic-Module-Name: org.apache.logging.slf4j
+Implementation-Version: 2.12.1
+Specification-Vendor: The Apache Software Foundation
+Bundle-ManifestVersion: 2
+Bundle-Vendor: The Apache Software Foundation
+Tool: Bnd-3.5.0.201709291849
+Implementation-Vendor: The Apache Software Foundation
+Bundle-Version: 2.12.1
+X-Compile-Target-JDK: 1.7
+X-Compile-Source-JDK: 1.7
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_144
+Implementation-URL: https://logging.apache.org/log4j/2.x/log4j-to-slf4j/
+Specification-Version: 2.12.1
+Log4jReleaseKey: B3D8E1BA
+Main-Class: kong.training.rest.KongApplication
+

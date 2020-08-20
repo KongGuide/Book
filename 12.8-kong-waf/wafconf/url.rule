@@ -1,0 +1,7 @@
+\.(svn|htaccess|bash_history)
+\.(bak|inc|old|mdb|sql|backup|java|class)$
+(vhost|bbs|host|wwwroot|www|site|root|hytop|flashfxp).*\.rar
+(phpmyadmin|jmx-console|jmxinvokerservlet)
+java\.lang
+/(attachments|upimg|images|css|uploadfiles|html|uploads|templets|static|template|data|inc|forumdata|upload|includes|cache|avatar)/(\w+).(php|jsp)
+(?:[\"'`](?:\s*?(?:(?:\*.+(?:(?:an|i)d|between|like|x?or|div)\W*?[\"'`]|(?:between|like|x?or|and|div)\s[^\d]+[\w-]+.*?)\d|[^\w\s?]+\s*?[^\w\s]+\s*?[\'`]|[^\w\s]+\s*?[\W\d].*?(?:--|#))|.*?\*\s*?\d)|^[\w\s\"'`-]+(?<=and\s)(?:(?<=between)|(?<=and\s)|(?<=like)|(?<=div)|(?<=xor)|(?<=or))(?<=xor\s)(?<=nand\s)(?<=not\s)(?<=\|\|)(?<=\&\&)\w+\(|[()\*<>%-](?!(?:format|20format)|uid|page|tid|pid|diff|rand)[\w-]+[^\w\s]+[\"'`][^,]|\^[\"'`])|(?:\b(?:having\b ?(?:[\'\"][^=]{1,10}[\'\"])?[=<>]+|\-\d{1,10}?[=<>]+)|(?i:having)\b\s+(?:'[^=]{1,10}'|\d{1,10})\s*?[=<>])|exists\s(?:s(?:elect\S(?:if(?:null)?\s\(|concat|top)|ystem\s\()|\b(?i:having)\b\s+\d{1,10}|'[^=]{1,10}'|\sselect)|(?i:\bexecute\s{1,5}[\w\.$]{1,5}\s{0,3})|(?i:\bcreate\s+?table.{0,20}?\()|(?i:\blike\W*?char\W*?\()|(?i:select.*?case)|(?i:from.*?limit)|(?i:\bexecute\()|(?i:order\sby)
