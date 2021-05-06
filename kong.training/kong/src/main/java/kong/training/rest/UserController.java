@@ -34,7 +34,6 @@ public class UserController {
 
 		User user = new User();
 		user.setCompanyId(companyId);
-		user.setUserId(userId);
 		user.setName("tom");
 		user.setSex(Sex.Male);
 		user.setAge(20);
