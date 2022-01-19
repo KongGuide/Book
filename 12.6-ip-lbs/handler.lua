@@ -12,7 +12,7 @@ function get_ip()
     local ip = kong.request.get_header("X-Forwarded-For")
     if ip ~= nil then
         local ips = pl_stringx.split(ip, ',')
-        return nips[1]
+        return ips[1]
     end
     ip = kong.request.get_header("X-Real-IP");
     if ip ~= nil then
