@@ -16,3 +16,4 @@ high performance and extensibility.
 [kong-nightly-master]: https://bintray.com/kong/kong-nightly/master
 [badge-travis-url]: https://travis-ci.org/Kong/kong/branches
 [badge-travis-image]: https://travis-ci.org/Kong/kong.svg?branch=master
+![Image](https://github.com/user-attachments/assets/1cb43fea-da9c-4ede-98d0-758264e83197)
